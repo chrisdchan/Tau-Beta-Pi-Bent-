@@ -35,11 +35,12 @@ export default class Experience
     update()
     {
         this.renderer.update()
+        this.world.update()
     }
 
     resize()
     {
         this.renderer.resize()
-        this.camera.update()
+        this.camera.resize()
     }
 }
